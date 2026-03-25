@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="DMP Web – Digitální cyklo pomocník. Vyberte si své nové horské kolo snadno a rychle.">
+  <title>DMP Web – Kdo maže, ten jede</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Přeskočit na hlavní obsah</a>
+
+  <header class="header">
+    <div class="container header__inner">
+
+      <a href="/" class="header__logo" aria-label="DMP Web – Domů">
+        <svg class="header__logo-icon" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="8" fill="#F26522"/>
+          <path d="M12 20l6 6 10-12" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="header__logo-text"><span>dmp</span>web</span>
+      </a>
+
+      <nav class="header__nav" aria-label="Hlavní navigace">
+        <ul class="header__nav-list">
+          <li><a href="#" class="header__nav-link">O nás</a></li>
+          <li><a href="#" class="header__nav-link">Novinky</a></li>
+          <li><a href="#" class="header__nav-link">Akce</a></li>
+          <li><a href="#" class="header__nav-link">Naše prodejny</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#contact" class="header__cta">Kontaktujte nás</a>
+
+        <div class="header__contact-icons">
+          <a href="mailto:info@klima-classic.cz" class="header__icon-link header__icon-link--mail" aria-label="Napište nám e-mail">
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M2 5l8 5 8-5v10H2V5zm0 0l8 5 8-5" stroke="#fff" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="tel:+420281012612" class="header__icon-link header__icon-link--phone" aria-label="Zavolejte nám">
+            <svg viewBox="0 0 20 20" aria-hidden="true">
+              <path d="M5 3a2 2 0 00-2 2c0 6.627 5.373 12 12 12a2 2 0 002-2l-3-2-2 1.5a8.5 8.5 0 01-4.5-4.5L9 8 7 5z" fill="#fff"/>
+            </svg>
+          </a>
+        </div>
+
+        <button class="header__toggle" aria-label="Otevřít menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="header__toggle-bar"></span>
+          <span class="header__toggle-bar"></span>
+          <span class="header__toggle-bar"></span>
+        </button>
+      </div>
+
+    </div>
+
+    <nav id="mobile-nav" class="header__mobile-nav" aria-label="Mobilní navigace">
+      <ul class="header__mobile-nav-list">
+        <li><a href="#" class="header__mobile-nav-link">O nás</a></li>
+        <li><a href="#" class="header__mobile-nav-link">Novinky</a></li>
+        <li><a href="#" class="header__mobile-nav-link">Akce</a></li>
+        <li><a href="#" class="header__mobile-nav-link">Naše prodejny</a></li>
+      </ul>
+      <a href="#contact" class="header__mobile-cta">Kontaktujte nás</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">Kdo maže, ten jede</h1>
+      </div>
+    </section>
+
+    <section class="bento" aria-labelledby="bento-heading">
+      <div class="container">
+        <h2 id="bento-heading" class="sr-only">Naše služby a nabídka</h2>
+        <div class="bento__grid">
+
+          <div class="bento__item bento__item--image bento__item--tall bento__item--pos-1">
+            <img src="assets/images/bike1.jpg" alt="Cyklista jedoucí lesní cestou" loading="lazy">
+          </div>
+
+          <div class="bento__item bento__item--image bento__item--pos-2">
+            <img src="assets/images/bike21.jpg" alt="Cyklista na horské cestě" loading="lazy">
+          </div>
+
+          <div class="bento__item bento__item--orange bento__item--pos-3">
+            <div class="bento__card">
+              <h3 class="bento__card-title">Digitální cyklo pomocník</h3>
+              <p class="bento__card-text">Díky našim digitálním nástrojům snadno najdete kolo, které odpovídá vašim požadavkům. Filtrujte podle velikosti, terénu nebo designu a najdete přesně to, co hledáte.</p>
+            </div>
+          </div>
+
+          <div class="bento__item bento__item--image bento__item--pos-4">
+            <img src="assets/images/bike22.jpg" alt="Horské kolo v akci" loading="lazy">
+          </div>
+
+          <div class="bento__item bento__item--outlined bento__item--pos-5">
+            <div class="bento__card">
+              <h3 class="bento__card-title">Staňte se odborníkem</h3>
+              <p class="bento__card-text">Využijte naše bezplatné školení a návody, jak se o své horské kolo správně starat. Získáte cenné tipy od profesionálů, které zlepší váš cyklistický zážitek.</p>
+            </div>
+          </div>
+
+          <div class="bento__item bento__item--orange bento__item--pos-7">
+            <div class="bento__card">
+              <h3 class="bento__card-title">Nakupujte z pohodlí domova</h3>
+              <p class="bento__card-text">Vyberte si své nové horské kolo snadno a rychle. Náš e-shop nabízí široký sortiment, detailní popisy a veškeré příslušenství pro vaše cyklistické výpravy.</p>
+            </div>
+          </div>
+
+          <div class="bento__item bento__item--image bento__item--wide bento__item--pos-8">
+            <img src="assets/images/scenic-ride.svg" alt="Cyklista v malebné krajině hor" loading="lazy">
+          </div>
+
+          <div class="bento__item bento__item--image bento__item--pos-9">
+            <img src="assets/images/bike-shop.svg" alt="Nabídka kol v prodejně" loading="lazy">
+          </div>
+
+          <div class="bento__item bento__item--green bento__item--pos-10">
+            <div class="bento__card">
+              <h3 class="bento__card-title">Dobrodružství v přírodě</h3>
+              <p class="bento__card-text">Objevujte krásy přírody na horských kolech, která spojují výkon, pohodlí a ekologickou šetrnost. Připravte se na nezapomenutelné zážitky v terénu.</p>
+            </div>
+          </div>
+
+          <div class="bento__item bento__item--image bento__item--pos-11">
+            <img src="assets/images/bike22.jpg" alt="Detail horského kola" loading="lazy">
+          </div>
+
+          <div class="bento__item bento__item--image bento__item--pos-12">
+            <img src="assets/images/bicycles.svg" alt="Řada zaparkovaných kol" loading="lazy">
+          </div>
+
+          <div class="bento__item bento__item--green bento__item--pos-14">
+            <div class="bento__card">
+              <h3 class="bento__card-title">Objevte nové příležitosti</h3>
+              <p class="bento__card-text">Zapojte se do našeho partnerského programu a vydělejte tím, co vás baví. Nabízíme podporu, školení a přístup k exkluzivním nabídkám.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="bento__cta-wrapper">
+          <a href="#" class="bento__cta">
+            Více o nás
+            <span class="bento__cta-arrow" aria-hidden="true">›</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-bar" id="contact">
+      <div class="container contact-bar__inner">
+        <div class="contact-bar__text">
+          <h2 class="contact-bar__heading">Buďte s námi v kontaktu</h2>
+          <p class="contact-bar__subtext">Rádi vám pomůžeme s výběrem kola</p>
+        </div>
+
+        <div class="contact-bar__details">
+          <div class="contact-bar__item">
+            <div class="contact-bar__icon contact-bar__icon--mail">
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M2 5l8 5 8-5v10H2V5zm0 0l8 5 8-5" stroke="#fff" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <a href="mailto:info@klima-classic.cz" class="contact-bar__link">info@klima-classic.cz</a>
+            </div>
+          </div>
+
+          <div class="contact-bar__item">
+            <div class="contact-bar__icon contact-bar__icon--phone">
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M5 3a2 2 0 00-2 2c0 6.627 5.373 12 12 12a2 2 0 002-2l-3-2-2 1.5a8.5 8.5 0 01-4.5-4.5L9 8 7 5z" fill="#fff"/>
+              </svg>
+            </div>
+            <div>
+              <a href="tel:+420281012612" class="contact-bar__link">+420 281 012 612</a>
+              <p class="contact-bar__hours">po-pá 9-15 hod</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__columns">
+        <div class="footer__column">
+          <h3 class="footer__column-title">Vybíráme z e-shopu</h3>
+          <ul class="footer__list">
+            <li><a href="#" class="footer__link">Horská kola</a></li>
+            <li><a href="#" class="footer__link">Elektrická kola</a></li>
+            <li><a href="#" class="footer__link">Cyklocomputery</a></li>
+            <li><a href="#" class="footer__link">Oblečení</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h3 class="footer__column-title">Mohlo by vás zajímat</h3>
+          <ul class="footer__list">
+            <li><a href="#" class="footer__link">Naše prodejna</a></li>
+            <li><a href="#" class="footer__link">Provozní doba</a></li>
+            <li><a href="#" class="footer__link">Kontakty</a></li>
+            <li><a href="#" class="footer__link">Proč zvolit nás?</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h3 class="footer__column-title">Vše o nákupu</h3>
+          <ul class="footer__list">
+            <li><a href="#" class="footer__link">Jak objednat zboží</a></li>
+            <li><a href="#" class="footer__link">Dostupnost zboží</a></li>
+            <li><a href="#" class="footer__link">Platba a doprava</a></li>
+            <li><a href="#" class="footer__link">Postup při reklamaci</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__agency">
+        <div class="footer__agency-inner">
+          <img src="assets/images/map.svg" alt="Mapa sídla DMP Agency" class="footer__agency-map" loading="lazy">
+          <div class="footer__agency-info">
+            <div class="footer__agency-logo">
+              <div class="footer__agency-logo-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+                  <circle cx="10" cy="10" r="6" fill="none" stroke="#fff" stroke-width="1.5"/>
+                  <circle cx="10" cy="10" r="2" fill="#fff"/>
+                </svg>
+              </div>
+              <div>
+                <p class="footer__agency-name">dmpagency</p>
+                <p class="footer__agency-hours">po-pá 9-15 hod</p>
+              </div>
+            </div>
+            <address class="footer__agency-address">
+              <strong>Kbelská 618/44</strong><br>
+              198 00 Praha 9 - Hloubětín<br>
+              Česká republika
+            </address>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="bottom-bar">
+    <div class="container bottom-bar__inner">
+      <a href="/" class="bottom-bar__logo" aria-label="DMP Web">
+        <svg class="bottom-bar__logo-icon" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="8" fill="#F26522"/>
+          <path d="M12 20l6 6 10-12" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="bottom-bar__logo-text"><span>dmp</span>web</span>
+      </a>
+
+      <p class="bottom-bar__tagline">"Kdo maže, ten jede"</p>
+
+      <p class="bottom-bar__copyright">© Oficiální stránky společnosti dmpagency</p>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
