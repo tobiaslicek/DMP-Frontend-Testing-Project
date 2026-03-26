@@ -1,0 +1,28 @@
+.hero {
+  text-align: center;
+}
+
+.hero__title {
+  padding-top: var(--hero-title-padding-top);
+  padding-bottom: var(--hero-title-padding-bottom);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--hero-title-font-size);
+  line-height: var(--hero-title-line-height);
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--color-text-heading);
+}
+
+@media (max-width: 47.99rem) {
+  .hero__title {
+    padding-top: 2.5rem;
+  }
+}
+
+@media (max-width: 61.874rem) {
+  .hero__title {
+    padding-top: 1.5rem;
+  }
+}
+
