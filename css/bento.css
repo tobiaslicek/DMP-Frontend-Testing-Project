@@ -230,11 +230,6 @@
     grid-column: unset;
   }
 
-  .bento__item--pos-6,
-  .bento__item--pos-13 {
-    display: none;
-  }
-
   .bento__item--pos-9 {
     display: block;
   }

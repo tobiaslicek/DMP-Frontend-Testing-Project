@@ -85,12 +85,6 @@
   background-position: center;
 }
 
-.footer__agency-map {
-  display: none !important;
-  max-width: 100%;
-  height: auto;
-}
-
 .footer__agency-info {
   position: relative;
   z-index: 1;
