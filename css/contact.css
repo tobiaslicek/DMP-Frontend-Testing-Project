@@ -1,0 +1,140 @@
+.contact-bar {
+  background: #f6f6f6;
+  border-bottom: 1.2px solid #0000001a;
+  color: #000000;
+  padding: 1.875rem 0;
+}
+
+.contact-bar__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  width: 100%;
+  max-width: 100rem;
+  margin-inline: auto;
+}
+
+.contact-bar__heading {
+  font-family: var(--font-family);
+  font-size: clamp(1.7rem, 2.1vw, 2.096875rem);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1;
+  letter-spacing: 0;
+  color: #000000;
+  margin-bottom: 0.75rem;
+}
+
+.contact-bar__subtext {
+  font-family: Arial, sans-serif;
+  font-size: clamp(1rem, 1.35vw, 1.348125rem);
+  font-weight: var(--font-weight-regular);
+  line-height: 1;
+  letter-spacing: 0;
+  color: #818181;
+}
+
+.contact-bar__details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-bar__item {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.contact-bar__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.193509rem;
+  height: 4.193509rem;
+  border-radius: 0.5rem;
+  background: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.contact-bar__icon img {
+  width: 1.797218rem;
+  height: 1.797218rem;
+  display: block;
+}
+
+.contact-bar__link {
+  font-family: var(--font-family);
+  font-size: clamp(1.1rem, 1.5vw, 1.4975rem);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1;
+  letter-spacing: 0;
+  color: #000000;
+  transition: opacity var(--transition-fast);
+}
+
+.contact-bar__link:hover {
+  opacity: 0.8;
+}
+
+.contact-bar__hours {
+  font-family: Arial, sans-serif;
+  font-size: clamp(0.95rem, 1.2vw, 1.198125rem);
+  font-weight: var(--font-weight-regular);
+  line-height: 1;
+  letter-spacing: 0;
+  color: #818181;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 47.99rem) {
+  .contact-bar__heading {
+    font-size: 1.75rem;
+  }
+
+  .contact-bar__subtext {
+    font-size: 1rem;
+  }
+
+  .contact-bar__link {
+    font-size: 1.15rem;
+  }
+
+  .contact-bar__hours {
+    font-size: 0.95rem;
+  }
+
+  .contact-bar__icon {
+    width: 3.25rem;
+    height: 3.25rem;
+  }
+
+  .contact-bar__icon img {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  .contact-bar__inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-bar__details {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 74.99rem) {
+  .contact-bar__inner,
+  .contact-bar__text,
+  .contact-bar__subtext {
+    text-align: center;
+  }
+
+  .contact-bar__item {
+    justify-content: center;
+  }
+}
