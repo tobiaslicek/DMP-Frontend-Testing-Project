@@ -23,7 +23,8 @@ Live URL: [https://tobiaslicek.github.io/DMP-Frontend-Testing-Project/](https://
 - `index.html` - struktura stránky
 - `css/` - styly po komponentech
 - `js/main.js` - logika mobilniho menu
-- `assets/images/` - obrázky a SVG
+- `assets/images/` - rastrové obrázky (JPG, PNG)
+- `assets/icons/` - SVG ikony a loga
 
 ## Poznámky
 
