@@ -69,18 +69,7 @@
   word-break: normal;
 }
 
-.bento__item--orange {
-  background-color: var(--color-primary);
-  color: var(--color-white);
-}
-
-.bento__item--outlined {
-  border: 0;
-  background-color: var(--color-primary);
-  color: var(--color-white);
-}
-
-.bento__item--green {
+.bento__item--primary {
   background-color: var(--color-primary);
   color: var(--color-white);
 }
